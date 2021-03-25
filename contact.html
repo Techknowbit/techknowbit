@@ -16,20 +16,25 @@
             scroll-behavior: smooth;
         }
 
-        .contact-cards div {
-            margin-left: 25%;
-            margin-bottom: 5%;
-        }
-   @media (max-width:600px){
-       .contact-cards div{
-          margin-left:5%;
-           margin-right:5%;
+       body{
+           background-image: linear-gradient(to bottom right, grey,white,grey,black,grey,grey,black,grey);
        }
-        }
+       .contact-cards{
+           margin-right: 25%;
+           margin-left: 25%;
+       }
+       .card{
+           margin-bottom: 50px;
+       }
         .carousel {
             margin-bottom: 5%;
         }
-        
+       @media (max-width: 650px) {
+           .contact-cards{
+               margin-left: 5%;
+               margin-right: 5%;
+           }
+       }
     </style>
     <title>Contact</title>
 </head>
@@ -44,7 +49,7 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#ts">Technical Support</a></li>
-                <li class="breadcrumb-item"><a href="#cs">Course Manager</a></li>
+                <li class="breadcrumb-item"><a href="#cs">Course Related</a></li>
                 <li class="breadcrumb-item"><a href="#os">Others</a></li>
             </ol>
         </nav>
@@ -85,12 +90,12 @@
     </div>
     <!--  Contact Cards-->
     <div class="contact-cards">
-        <div class="card" style="width: 50%;" id="ts">
+        <div class="card" id="ts">
             <img class="card-img-top" src="https://i.pinimg.com/originals/b7/23/bc/b723bc52a4d351c90e7c7629dadd51c7.jpg"
                 alt="Card image cap">
             <div class="card-body">
                 <p class="card-text">
-                    <h1>Name of the department...</h1>
+                    <h1>Technical Support</h1>
                     <i class="fa fa-envelope" style="font-size:28px"></i>
                     <span>abcdefghijk@techknowbit.com</span> <br>
                     <i class="fa fa-phone" style="font-size:28px"></i>
@@ -98,12 +103,12 @@
                 </p>
             </div>
         </div>
-        <div class="card" style="width: 50%;" id="cs">
+        <div class="card" id="cs">
             <img class="card-img-top" src="https://i.pinimg.com/originals/b7/23/bc/b723bc52a4d351c90e7c7629dadd51c7.jpg"
                 alt="Card image cap">
             <div class="card-body">
                 <p class="card-text">
-                    <h1>Name of the department...</h1>
+                    <h1>Course Related</h1>
                     <i class="fa fa-envelope" style="font-size:28px"></i>
                     <span>abcdefghijk@techknowbit.com</span> <br>
                     <i class="fa fa-phone" style="font-size:28px"></i>
@@ -111,12 +116,12 @@
                 </p>
             </div>
         </div>
-        <div class="card" style="width: 50%;" id="os">
+        <div class="card" id="os">
             <img class="card-img-top" src="https://i.pinimg.com/originals/b7/23/bc/b723bc52a4d351c90e7c7629dadd51c7.jpg"
                 alt="Card image cap">
             <div class="card-body">
                 <p class="card-text">
-                    <h1>Name of the department...</h1>
+                    <h1>Other</h1>
                     <i class="fa fa-envelope" style="font-size:28px"></i>
                     <span>abcdefghijk@techknowbit.com</span> <br>
                     <i class="fa fa-phone" style="font-size:28px"></i>
